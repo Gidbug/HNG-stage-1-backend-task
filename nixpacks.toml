@@ -1,2 +1,4 @@
-[providers]
-python = "3.9"
+# nixpacks.toml
+
+[start]
+cmd = "gunicorn main:app"
